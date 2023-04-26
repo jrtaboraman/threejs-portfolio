@@ -26,8 +26,8 @@ import shopify from "./company/volenday.jpeg";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/vtime.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+import gpt from "./gpt.png";
+import blog from "./blog.png";
 import tripguide from "./tripguide.png";
 
 export {
@@ -56,7 +56,7 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
+  gpt,
+  blog,
   tripguide,
 };

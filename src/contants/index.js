@@ -16,11 +16,10 @@ import {
   figma,
   docker,
   meta,
-  starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
+  gpt,
+  blog,
   tripguide,
   threejs,
 } from "../assets";
@@ -185,46 +184,54 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Personal chatGPT",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that I created so I can use chatGPT anytime I want since most of the time it is down due to huge number of users.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "OpenAI",
         color: "green-text-gradient",
       },
       {
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "javascript",
+        color: "orange-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: gpt,
+    source_code_link: "https://jr-gpt.netlify.app/",
   },
   {
-    name: "Job IT",
+    name: "GraphCMS Blog",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that enables users to comment on blogs created using Content Management System previously called GraphCMS now it is Hygraph",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
         name: "scss",
         color: "pink-text-gradient",
       },
+      {
+        name: "tailwindcss",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "GraphCMS",
+        color: "green-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: blog,
+    source_code_link: "https://fd360-blog.netlify.app/",
   },
   {
     name: "Trip Guide",
