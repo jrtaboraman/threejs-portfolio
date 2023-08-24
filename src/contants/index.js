@@ -115,11 +115,11 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Front end Developer",
-    company_name: "Vtime tech consulting",
+    title: "Webservices Manager/Front end Developer",
+    company_name: "Future Digital 360",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Oct 2022 - Mar 2023",
+    date: "Jan 2023 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
