@@ -28,7 +28,7 @@ const Navbar = () => {
         </Link>
 
         <a
-          href="https://docs.google.com/document/d/1n8abHFwgpPk3-PyruJ4CUqPpz4eU6JWm/edit?usp=sharing&ouid=117226146731897244453&rtpof=true&sd=true"
+          href="https://docs.google.com/document/d/1w5OOTlTpHmwOuWW3ZfMUxDTTlDSYVw3y/edit?usp=sharing&ouid=117226146731897244453&rtpof=true&sd=true"
           target="_blank"
         >
           <p className="text-blue-400 text-[18px] font-bold cursor-pointer">
