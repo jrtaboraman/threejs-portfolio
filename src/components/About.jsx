@@ -21,7 +21,7 @@ const ServiceCard = ({ index, title, icon }) => {
           }}
           className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
         >
-          <img src={icon} alt={title} className="w-16 h-16 object-contain" />
+          <img src={icon} alt={title} className="object-contain w-16 h-16" />
           <h3 className="text-white text-[20px] font-bold text-center">
             {title}
           </h3>
@@ -43,12 +43,12 @@ const About = () => {
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
         I'm a skilled software developer with experience in Typescript,
-        Javascript, React, Nextjs, Nodejs and Threejs. I'm a quick learner and
-        collaborate closely with clients to create efficient, scalable, and
-        user-friendly solutions that solve real-world problems. Let's work
-        together and bring your ideas to life!
+        Javascript, React, React Native, Nextjs, Nodejs and Threejs. I'm a quick
+        learner and collaborate closely with clients to create efficient,
+        scalable, and user-friendly solutions that solve real-world problems.
+        Let's work together and bring your ideas to life!
       </motion.p>
-      <div className="mt-20 flex flex-wrap gap-10">
+      <div className="flex flex-wrap gap-10 mt-20">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
